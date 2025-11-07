@@ -94,12 +94,12 @@ To run this notebook automatically:
 
 ## Features
 
-- ✅ **Automatic overwrite** - Updates files on each run
-- ✅ **Error handling** - Continues processing even if one file fails
-- ✅ **Detailed logging** - Shows progress and status for each file
-- ✅ **Batch processing** - Handles multiple files in one run
-- ✅ **File verification** - Validates Excel file format before writing
-- ✅ **Summary report** - Provides success/failure counts
+- **Automatic overwrite** - Updates files on each run
+- **Error handling** - Continues processing even if one file fails
+- **Detailed logging** - Shows progress and status for each file
+- **Batch processing** - Handles multiple files in one run
+- **File verification** - Validates Excel file format before writing
+- **Summary report** - Provides success/failure counts
 
 ## Troubleshooting
 
@@ -119,7 +119,7 @@ To run this notebook automatically:
 **Cause:** Empty `sharing_link` field  
 **Solution:** Add sharing link in Cell 3 configuration
 
-## 📂 File Structure
+## File Structure
 ```
 SharePoint-To-MicrosoftFabric-Lakehouse-Notebook/
 │
@@ -129,7 +129,7 @@ SharePoint-To-MicrosoftFabric-Lakehouse-Notebook/
     └── sample_config.py               # Sample configuration
 ```
 
-## 🔒 Security Considerations
+## Security Considerations
 
 - Sharing links with "Anyone can edit" provide public access
 - Consider using time-limited links or more restrictive sharing
@@ -137,27 +137,27 @@ SharePoint-To-MicrosoftFabric-Lakehouse-Notebook/
 - Never commit sharing links to public repositories
 - Use Fabric secrets/Key Vault for sensitive configuration
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome to make this notebook work without setting the SharePoint URL 'to anyone can edit'! Please:
 1. Fork the repository
 2. Create a feature branch
 3. Submit a pull request with clear description 
 
-## 📄 License
+## License
 
 MIT License - Feel free to use and modify
 
-## 👤 Author
+## Author
 
 [Fatai Sanni]  
 [dyfatai]
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Built for Microsoft Fabric and SharePoint integration
 
 ---
 
-**⭐ If this helps you, please star the repository!**
+**If this helps you, please star the repository!**
 ```
